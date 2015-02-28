@@ -1,0 +1,26 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	max-width: 650px;
+	margin: 0 auto;
+	background-color: hsl(40,80%, 80%);
+}
+
+#inventory_pane {
+	max-width: 30%;
+	float: left;
+	height: 50vh;
+	background-color: hsl(100,70%, 70%);
+	padding: 20px;
+}
+
+#console_log {
+	float: right;
+	width: 70%;
+	height: 60vh;
+	background-color: hsl(100, 30%, 70%);
+	overflow: auto;
+}

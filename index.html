@@ -1,1 +1,25 @@
-Hello World
+<html>
+<head>
+<meta charset="utf-8">
+<title>world-sim</title>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<script src = "player.js"></script>
+
+</head>
+
+<body>
+<div id = "inventory_pane">
+	<h2> My Inventory </h2>	
+
+</div>
+<div id = "console_log">
+	<h1> Mining Place </h1>
+	<p> Mine Lyrium ore here. </p>
+
+</div>
+
+<button id = "mine" onclick = "player.gather('Lyrium Ore', 'lyrium_ore')">Mine </button>
+<input type = "text" id = "command_line">
+</body>
+
+</html>
